@@ -1,0 +1,70 @@
+.rm347-porpla-02-a-01-3 {
+  width: 1456px;
+  height: 405px;
+  position: relative;
+  background: linear-gradient(
+    180deg,
+    #fcfcfc,
+    rgba(252, 252, 252, 0.23) 94.11%
+  );
+  display: none;
+  max-width: 100%;
+}
+.finding-talent-that {
+  flex: 1;
+  position: relative;
+  line-height: 33px;
+  display: inline-block;
+  min-height: 132px;
+  max-width: 100%;
+  z-index: 2;
+}
+.swirly-scribbled-arrow-icon {
+  height: 158.3px;
+  width: 158.3px;
+  position: absolute;
+  margin: 0 !important;
+  right: -38.3px;
+  bottom: -103.3px;
+  object-fit: contain;
+  z-index: 3;
+}
+.align,
+.finding-talent-that-aligns-wit-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.finding-talent-that-aligns-wit-parent {
+  width: 542px;
+  flex-direction: row;
+  position: relative;
+  max-width: 100%;
+}
+.align {
+  width: 1456px;
+  margin: 0 !important;
+  position: absolute;
+  top: 2537px;
+  right: -11px;
+  background: linear-gradient(
+    180deg,
+    #fcfcfc,
+    rgba(252, 252, 252, 0.23) 94.11%
+  );
+  flex-direction: column;
+  padding: var(--padding-8xs) var(--padding-116xl) var(--padding-249xl);
+  box-sizing: border-box;
+  min-height: 405px;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-1600);
+  font-family: var(--font-axiforma);
+}
+@media screen and (max-width: 450px) {
+  .finding-talent-that {
+    font-size: var(--font-size-base);
+    line-height: 26px;
+  }
+}
